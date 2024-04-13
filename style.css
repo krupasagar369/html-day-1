@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 80%;
+    height: 80%;
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px black;
+    animation: slider 10s linear infinite;
+}
+@keyframes slider{
+    0%{
+        background-image: url(p1.webp);
+    }
+    25%{
+        background-image: url(p2.webp);
+    }
+    50%{
+        background-image: url(p3.webp);
+    }
+    75%{
+        background-image: url(p4.webp);
+    }
+    100%{
+        background-image: url(p5.webp);
+    }
+}
